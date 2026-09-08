@@ -18,7 +18,7 @@ const Navbar = () => {
               <button className='bg-purple-500 rounded-lg shadow-lg p-3 py-1 font-bold cursor-pointer'>Try Now</button>
             </Link>
 
-            <Link href="/github">
+            <Link href="/github" target='_blank'>
               <button className='bg-purple-500 rounded-lg shadow-lg p-3 py-1 font-bold cursor-pointer'>GitHub</button>
             </Link>
           </li>
