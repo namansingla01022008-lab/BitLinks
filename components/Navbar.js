@@ -10,8 +10,8 @@ const Navbar = () => {
         </div>
 
         <ul className='flex justify-center gap-1 sm:gap-4 items-center'>
-          <Link href="/"><li>Home</li></Link>
-          <Link href="/shorten"><li>Shorten</li></Link>
+          <Link href="/" className='font-bold'><li>Home</li></Link>
+          <Link href="/shorten" className='font-bold'><li>Shorten</li></Link>
 
           <li className='flex gap-1 sm:gap-3'>
             <Link href="/shorten">
