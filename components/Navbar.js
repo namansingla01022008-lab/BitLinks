@@ -1,11 +1,19 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Navbar = () => {
   return (
     <div>
       <nav className='h-16 bg-purple-700 flex justify-between px-1 sm:px-3 items-center text-white'>
-        <div className="logo font-bold text-lg">
+        <div className="sm:justify-center logo font-bold text-lg flex gap-1">
+          <Image
+          className='hidden sm:block'
+            alt="an Image of a vector"
+            src={"/logo.png"}
+            width={30}
+            height={24}
+          />
           <Link href="/">BitLinks</Link>
         </div>
 
