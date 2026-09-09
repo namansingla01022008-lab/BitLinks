@@ -9,7 +9,7 @@ const poppins = Poppins({
 });
 const Footer = () => {
     return (
-        <footer className='flex py-4 justify-between px-10 font-bold bg-purple-300'>
+        <footer className='flex py-4 justify-between px-2 sm:px-10 font-bold bg-purple-300'>
             <div className='flex items-center'>
                 <span className={`${poppins.className} text-xl font-bold`}>&copy;</span>
                 <span className={`${poppins.className}`}> 2026 BitLinks</span>
